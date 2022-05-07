@@ -1,2 +1,2 @@
 # estudos_dio
-Repositirio para desafios e anotações
+Repositório para desafios e anotações
