@@ -1,0 +1,50 @@
+css flex box
+flex container é a tag que envolve os itens
+- propriedades
+display:flex (alinha os elementos invertendo os eixo) inicializador do container
+flex-direction(fd)= modifica linha e coluna. define nosso eixo principal.
+    flex-direction: row ( sentido linha)
+    flex-direction: row-reverse ( linha invertido)
+    flex-direction: column (sentido coluna)
+    flex-direction: column-reverse (coluna sentido invertido)
+flex-wrap(fw) = quebra de linha
+    nowrap
+    wrap
+    wrap-reverse
+flex-flow = abreviatira dos anteriores
+    flow: comando fd; comando fw
+justify-content= alinha os itens de acordo com o eixo principal
+    flex-start
+    flex-end
+    flex-center
+    space-between
+    space-around
+align-itens = alinhamento dos items de acordo ao eixo perpendicular.
+    flex-start
+    flex-end
+    flex-center
+    stretch
+    baseline
+
+align-content= alinhamento de mais de uma linha
+    flex-start
+    flex-end
+    flex-center
+    space-between
+    space-around
+gap; row gap;column gap = distancia entre as linhas ou colunas.
+    gap: valor px
+
+flex items
+
+flex-grow = define fator de crescimento
+flex-basis = define valor inicial do item
+flex-shrink = define a reduçao
+flex = abreviaçao dos antetriores
+order = ordem desse itens
+align-self = alinhamento especifico.
+
+pratica com display flex
+style
+.flex 
+max width 36px

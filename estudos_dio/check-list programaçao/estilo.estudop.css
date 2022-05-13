@@ -1,0 +1,30 @@
+*{
+    background-color:rosybrown;
+    font-family: verdana;
+    font-size: 40px;
+    color: rgb(61, 18, 18);
+}
+#titulo{
+    font-family: 'Lucida Sans', 
+    border 0,2 px solid black
+ 
+}
+.divisao {
+    display:flex;
+    border: 1px solid  antiquewhite;
+    padding-top: 20px;
+    gap:20px
+}
+.nav {
+    display:flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.rodape {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-top: 1px solid antiquewhite;
+    padding-top: 20px
+}
